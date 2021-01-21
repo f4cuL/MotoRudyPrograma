@@ -8,6 +8,7 @@ package Main;
 import Controlador.Controlador;
 import Modelo.Modelo;
 import Vista.Principal;
+import Vista.agregarRemito;
 import Vista.cargarClientes;
 import Vista.modificarCliente;
 import Vista.nuevoCliente;
@@ -31,6 +32,8 @@ public class Main {
         nuevoCliente nc = new nuevoCliente();
         modificarCliente mc = new modificarCliente();
         remitosVer rv = new remitosVer();
+        agregarRemito ar = new agregarRemito();
+        
         
         
         modelo.setControlador(controlador);
@@ -39,6 +42,8 @@ public class Main {
         nc.setControlador(controlador);
         mc.setControlador(controlador);
         rv.setControlador(controlador);
+        ar.setControlador(controlador);
+        
         
         
         controlador.setCargar(cg);
@@ -47,6 +52,7 @@ public class Main {
         controlador.setNuevoCliente(nc);
         controlador.setModificarCliente(mc);
         controlador.setRemitosVer(rv);
+        controlador.setAgregarRemito(ar);
         principal.setVisible(true);
         
     }

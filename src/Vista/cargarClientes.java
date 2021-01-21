@@ -69,7 +69,7 @@ public class cargarClientes extends javax.swing.JInternalFrame {
 
             },
             new String [] {
-                "NumeroCliente", "Nombre", "Apellido", "DNI"
+                "NumeroCliente", "Nombre", "Apellido/Empresa", "DNI/CUIL"
             }
         ) {
             boolean[] canEdit = new boolean [] {

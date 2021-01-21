@@ -12,6 +12,7 @@ package Controlador;
 import Modelo.Cliente;
 import Modelo.Modelo;
 import Vista.Principal;
+import Vista.agregarRemito;
 import Vista.cargarClientes;
 import Vista.modificarCliente;
 import Vista.nuevoCliente;
@@ -31,7 +32,16 @@ public class Controlador{
     private nuevoCliente nuevoCliente;
     private modificarCliente modificarCliente;
     private remitosVer remitosVer;
+    private agregarRemito agregarRemito;
 
+    public agregarRemito getAgregarRemito() {
+        return agregarRemito;
+    }
+
+    public void setAgregarRemito(agregarRemito agregarRemito) {
+        this.agregarRemito = agregarRemito;
+    }
+    
     public modificarCliente getModificarCliente() {
         return modificarCliente;
     }

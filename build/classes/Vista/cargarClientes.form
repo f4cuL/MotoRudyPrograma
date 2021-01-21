@@ -94,8 +94,8 @@
                   <Table columnCount="4" rowCount="0">
                     <Column editable="false" title="NumeroCliente" type="java.lang.Object"/>
                     <Column editable="false" title="Nombre" type="java.lang.Object"/>
-                    <Column editable="false" title="Apellido" type="java.lang.Object"/>
-                    <Column editable="false" title="DNI" type="java.lang.Object"/>
+                    <Column editable="false" title="Apellido/Empresa" type="java.lang.Object"/>
+                    <Column editable="false" title="DNI/CUIL" type="java.lang.Object"/>
                   </Table>
                 </Property>
                 <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
